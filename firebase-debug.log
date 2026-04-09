@@ -1,0 +1,129 @@
+[debug] [2026-01-23T23:24:34.110Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-23T23:24:34.111Z] > authorizing via signed-in user (robert.f.developer@gmail.com)
+[debug] [2026-01-23T23:24:34.111Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-23T23:24:34.111Z] > authorizing via signed-in user (robert.f.developer@gmail.com)
+[debug] [2026-01-23T23:24:34.112Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.112Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.112Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.112Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.112Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-23T23:24:34.112Z] > authorizing via signed-in user (robert.f.developer@gmail.com)
+[debug] [2026-01-23T23:24:34.112Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.112Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.112Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo [none]
+[debug] [2026-01-23T23:24:34.113Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo [none]
+[debug] [2026-01-23T23:24:34.114Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo [none]
+[debug] [2026-01-23T23:24:34.443Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo 200
+[debug] [2026-01-23T23:24:34.443Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo {"name":"projects/photo-website-485000/billingInfo","projectId":"photo-website-485000","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-23T23:24:34.446Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.446Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.446Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.446Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.446Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.446Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.451Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.451Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.451Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.451Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:34.451Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com [none]
+[debug] [2026-01-23T23:24:34.451Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:34.452Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-23T23:24:34.452Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:34.453Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-01-23T23:24:34.453Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:34.453Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-01-23T23:24:34.453Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:34.454Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com [none]
+[debug] [2026-01-23T23:24:34.454Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:35.086Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo 200
+[debug] [2026-01-23T23:24:35.086Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo {"name":"projects/photo-website-485000/billingInfo","projectId":"photo-website-485000","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-23T23:24:35.086Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.086Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.087Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.087Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.087Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.087Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.089Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.089Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.089Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.089Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.089Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com [none]
+[debug] [2026-01-23T23:24:35.089Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:35.090Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-23T23:24:35.090Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:35.090Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-01-23T23:24:35.090Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:35.090Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-01-23T23:24:35.090Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:35.091Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com [none]
+[debug] [2026-01-23T23:24:35.091Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:35.091Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo 200
+[debug] [2026-01-23T23:24:35.091Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo {"name":"projects/photo-website-485000/billingInfo","projectId":"photo-website-485000","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-23T23:24:35.092Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.092Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.092Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.092Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.092Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.092Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.094Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.094Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.094Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.094Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:35.094Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com [none]
+[debug] [2026-01-23T23:24:35.094Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:35.094Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-23T23:24:35.094Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:35.095Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-01-23T23:24:35.095Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:35.096Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-01-23T23:24:35.096Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:35.096Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com [none]
+[debug] [2026-01-23T23:24:35.096Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com x-goog-quota-user=projects/photo-website-485000
+[debug] [2026-01-23T23:24:35.290Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com 403
+[debug] [2026-01-23T23:24:35.290Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com [omitted]
+[debug] [2026-01-23T23:24:35.382Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com 200
+[debug] [2026-01-23T23:24:35.382Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:35.383Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com 200
+[debug] [2026-01-23T23:24:35.383Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:35.391Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-01-23T23:24:35.391Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:35.393Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-01-23T23:24:35.393Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:35.923Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com 403
+[debug] [2026-01-23T23:24:35.923Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com [omitted]
+[debug] [2026-01-23T23:24:35.924Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com 403
+[debug] [2026-01-23T23:24:35.924Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseio.com [omitted]
+[debug] [2026-01-23T23:24:35.985Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-01-23T23:24:35.985Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:35.990Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-01-23T23:24:35.990Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:36.003Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com 200
+[debug] [2026-01-23T23:24:36.003Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:36.018Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-01-23T23:24:36.018Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:36.023Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-01-23T23:24:36.023Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:36.043Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com 200
+[debug] [2026-01-23T23:24:36.043Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/firestore.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:36.119Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com 200
+[debug] [2026-01-23T23:24:36.119Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:36.123Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com 200
+[debug] [2026-01-23T23:24:36.123Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/photo-website-485000/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-01-23T23:24:36.138Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-23T23:24:36.138Z] > authorizing via signed-in user (robert.f.developer@gmail.com)
+[debug] [2026-01-23T23:24:36.138Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:36.138Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:36.138Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo [none]
+[debug] [2026-01-23T23:24:36.140Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-23T23:24:36.140Z] > authorizing via signed-in user (robert.f.developer@gmail.com)
+[debug] [2026-01-23T23:24:36.140Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:36.140Z] Checked if tokens are valid: true, expires at: 1769212725334
+[debug] [2026-01-23T23:24:36.140Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo [none]
+[debug] [2026-01-23T23:24:36.771Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo 200
+[debug] [2026-01-23T23:24:36.771Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo {"name":"projects/photo-website-485000/billingInfo","projectId":"photo-website-485000","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-23T23:24:36.772Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-23T23:24:36.772Z] > authorizing via signed-in user (robert.f.developer@gmail.com)
+[debug] [2026-01-23T23:24:36.780Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo 200
+[debug] [2026-01-23T23:24:36.780Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/photo-website-485000/billingInfo {"name":"projects/photo-website-485000/billingInfo","projectId":"photo-website-485000","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-23T23:24:36.781Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-23T23:24:36.781Z] > authorizing via signed-in user (robert.f.developer@gmail.com)

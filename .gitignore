@@ -1,0 +1,4 @@
+node_modules/
+.fastembed_cache/
+*.tgz
+.DS_Store
