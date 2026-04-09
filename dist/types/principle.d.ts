@@ -1,4 +1,4 @@
-import { DesignCategory } from './category.js';
+import { DesignCategory } from "./category.js";
 /**
  * A design principle represents a fundamental guideline or heuristic
  * that informs good design decisions.
@@ -31,10 +31,16 @@ export interface DesignPrinciple {
     relatedPrinciples: string[];
     /** Searchable tags */
     tags: string[];
-    /** Optional source attribution */
-    source?: string;
+    /** Source attribution — book, paper, or framework */
+    source?: {
+        book: string;
+        author: string;
+        year: number;
+        chapter?: string;
+        isbn?: string;
+    };
     /** Priority/importance level */
-    importance?: 'critical' | 'high' | 'medium' | 'low';
+    importance?: "critical" | "high" | "medium" | "low";
 }
 /**
  * Simplified principle for search results and lists

@@ -1,4 +1,4 @@
-import { DesignPrinciple } from '../../types/index.js';
+import { DesignPrinciple } from "../../types/index.js";
 /**
  * Visual Design and UI Principles
  * Core principles for creating effective visual interfaces

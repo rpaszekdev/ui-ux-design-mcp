@@ -1,4 +1,4 @@
-import { DesignPrinciple } from '../../types/index.js';
+import { DesignPrinciple } from "../../types/index.js";
 /**
  * Nielsen's 10 Usability Heuristics
  * Based on Jakob Nielsen's widely-recognized heuristics for UI design

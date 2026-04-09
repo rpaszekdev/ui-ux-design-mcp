@@ -1,4 +1,4 @@
-import { DesignPrinciple, DesignPattern } from '../types/index.js';
+import { DesignPrinciple, DesignPattern } from "../types/index.js";
 /**
  * Format a principle for output
  */

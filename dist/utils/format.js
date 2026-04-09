@@ -4,54 +4,59 @@
 export function formatPrinciple(principle) {
     const lines = [];
     lines.push(`# ${principle.name}`);
-    lines.push('');
-    lines.push(`**Category:** ${principle.category}${principle.subcategory ? ` > ${principle.subcategory}` : ''}`);
+    lines.push("");
+    lines.push(`**Category:** ${principle.category}${principle.subcategory ? ` > ${principle.subcategory}` : ""}`);
     if (principle.importance) {
         lines.push(`**Importance:** ${principle.importance}`);
     }
-    lines.push('');
+    lines.push("");
     lines.push(`## Summary`);
     lines.push(principle.summary);
-    lines.push('');
+    lines.push("");
     lines.push(`## Description`);
     lines.push(principle.description);
-    lines.push('');
+    lines.push("");
     lines.push(`## Rationale`);
     lines.push(principle.rationale);
-    lines.push('');
+    lines.push("");
     if (principle.examples.good.length > 0) {
         lines.push(`## Good Examples`);
         principle.examples.good.forEach((ex) => {
             lines.push(`- ${ex}`);
         });
-        lines.push('');
+        lines.push("");
     }
     if (principle.examples.bad.length > 0) {
         lines.push(`## Bad Examples (Anti-patterns)`);
         principle.examples.bad.forEach((ex) => {
             lines.push(`- ${ex}`);
         });
-        lines.push('');
+        lines.push("");
     }
     if (principle.applications.length > 0) {
         lines.push(`## Applications`);
         principle.applications.forEach((app) => {
             lines.push(`- ${app}`);
         });
-        lines.push('');
+        lines.push("");
     }
     if (principle.relatedPrinciples.length > 0) {
         lines.push(`## Related Principles`);
-        lines.push(principle.relatedPrinciples.join(', '));
-        lines.push('');
+        lines.push(principle.relatedPrinciples.join(", "));
+        lines.push("");
     }
     if (principle.source) {
         lines.push(`## Source`);
-        lines.push(principle.source);
-        lines.push('');
+        const s = principle.source;
+        lines.push(`**${s.book}** by ${s.author} (${s.year})`);
+        if (s.chapter)
+            lines.push(`Chapter: ${s.chapter}`);
+        if (s.isbn)
+            lines.push(`ISBN: ${s.isbn}`);
+        lines.push("");
     }
-    lines.push(`**Tags:** ${principle.tags.join(', ')}`);
-    return lines.join('\n');
+    lines.push(`**Tags:** ${principle.tags.join(", ")}`);
+    return lines.join("\n");
 }
 /**
  * Format a pattern for output
@@ -59,90 +64,90 @@ export function formatPrinciple(principle) {
 export function formatPattern(pattern) {
     const lines = [];
     lines.push(`# ${pattern.name}`);
-    lines.push('');
+    lines.push("");
     lines.push(`**Category:** ${pattern.category}`);
     lines.push(`**Type:** ${pattern.type}`);
-    lines.push(`**Platforms:** ${pattern.platforms.join(', ')}`);
-    lines.push('');
+    lines.push(`**Platforms:** ${pattern.platforms.join(", ")}`);
+    lines.push("");
     lines.push(`## Problem`);
     lines.push(pattern.problem);
-    lines.push('');
+    lines.push("");
     lines.push(`## Solution`);
     lines.push(pattern.solution);
-    lines.push('');
+    lines.push("");
     lines.push(`## Context (When to Use)`);
     lines.push(pattern.context);
-    lines.push('');
+    lines.push("");
     lines.push(`## Structure`);
     lines.push(pattern.structure.description);
-    lines.push('');
+    lines.push("");
     lines.push(`**Components:**`);
     pattern.structure.components.forEach((comp) => {
         lines.push(`- ${comp}`);
     });
     if (pattern.structure.variants) {
-        lines.push('');
+        lines.push("");
         lines.push(`**Variants:**`);
         pattern.structure.variants.forEach((variant) => {
             lines.push(`- ${variant}`);
         });
     }
-    lines.push('');
+    lines.push("");
     lines.push(`## Consequences`);
-    lines.push('');
+    lines.push("");
     lines.push(`**Benefits:**`);
     pattern.consequences.benefits.forEach((benefit) => {
         lines.push(`- ✓ ${benefit}`);
     });
-    lines.push('');
+    lines.push("");
     lines.push(`**Trade-offs:**`);
     pattern.consequences.tradeoffs.forEach((tradeoff) => {
         lines.push(`- ⚠ ${tradeoff}`);
     });
-    lines.push('');
+    lines.push("");
     if (pattern.examples.length > 0) {
         lines.push(`## Examples`);
         pattern.examples.forEach((ex) => {
-            lines.push(`- ${ex.description}${ex.platform ? ` (${ex.platform})` : ''}`);
+            lines.push(`- ${ex.description}${ex.platform ? ` (${ex.platform})` : ""}`);
         });
-        lines.push('');
+        lines.push("");
     }
     if (pattern.accessibility.length > 0) {
         lines.push(`## Accessibility Considerations`);
         pattern.accessibility.forEach((item) => {
             lines.push(`- ${item}`);
         });
-        lines.push('');
+        lines.push("");
     }
     if (pattern.antiPatterns.length > 0) {
         lines.push(`## Anti-patterns to Avoid`);
         pattern.antiPatterns.forEach((anti) => {
             lines.push(`- ✗ ${anti}`);
         });
-        lines.push('');
+        lines.push("");
     }
     if (pattern.relatedPatterns.length > 0) {
         lines.push(`## Related Patterns`);
-        lines.push(pattern.relatedPatterns.join(', '));
-        lines.push('');
+        lines.push(pattern.relatedPatterns.join(", "));
+        lines.push("");
     }
-    lines.push(`**Tags:** ${pattern.tags.join(', ')}`);
-    return lines.join('\n');
+    lines.push(`**Tags:** ${pattern.tags.join(", ")}`);
+    return lines.join("\n");
 }
 /**
  * Format a list of items as a summary table
  */
 export function formatSummaryList(items) {
     const lines = [];
-    lines.push('| Name | Category | Summary |');
-    lines.push('|------|----------|---------|');
+    lines.push("| Name | Category | Summary |");
+    lines.push("|------|----------|---------|");
     items.forEach((item) => {
         const summary = item.summary.length > 80
-            ? item.summary.substring(0, 77) + '...'
+            ? item.summary.substring(0, 77) + "..."
             : item.summary;
         lines.push(`| ${item.name} | ${item.category} | ${summary} |`);
     });
-    return lines.join('\n');
+    return lines.join("\n");
 }
 /**
  * Truncate text to a maximum length
@@ -150,6 +155,6 @@ export function formatSummaryList(items) {
 export function truncate(text, maxLength) {
     if (text.length <= maxLength)
         return text;
-    return text.substring(0, maxLength - 3) + '...';
+    return text.substring(0, maxLength - 3) + "...";
 }
 //# sourceMappingURL=format.js.map

@@ -1,4 +1,4 @@
-import { DesignCategory } from './category.js';
+import { DesignCategory } from "./category.js";
 
 /**
  * A design principle represents a fundamental guideline or heuristic
@@ -32,10 +32,16 @@ export interface DesignPrinciple {
   relatedPrinciples: string[];
   /** Searchable tags */
   tags: string[];
-  /** Optional source attribution */
-  source?: string;
+  /** Source attribution — book, paper, or framework */
+  source?: {
+    book: string;
+    author: string;
+    year: number;
+    chapter?: string;
+    isbn?: string;
+  };
   /** Priority/importance level */
-  importance?: 'critical' | 'high' | 'medium' | 'low';
+  importance?: "critical" | "high" | "medium" | "low";
 }
 
 /**
@@ -53,7 +59,9 @@ export interface PrincipleSummary {
 /**
  * Convert full principle to summary
  */
-export function toPrincipleSummary(principle: DesignPrinciple): PrincipleSummary {
+export function toPrincipleSummary(
+  principle: DesignPrinciple,
+): PrincipleSummary {
   return {
     id: principle.id,
     name: principle.name,
