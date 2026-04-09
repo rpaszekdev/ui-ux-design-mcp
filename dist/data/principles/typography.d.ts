@@ -1,4 +1,4 @@
-import { DesignPrinciple } from '../../types/index.js';
+import { DesignPrinciple } from "../../types/index.js";
 /**
  * Typography Principles
  * Principles for effective typography in user interfaces

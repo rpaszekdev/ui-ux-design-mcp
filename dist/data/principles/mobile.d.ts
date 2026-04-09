@@ -1,4 +1,4 @@
-import { DesignPrinciple } from '../../types/index.js';
+import { DesignPrinciple } from "../../types/index.js";
 /**
  * Mobile Design Principles
  * Principles specific to mobile and touch-based interfaces
